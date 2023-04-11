@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('user.urls')),
     path('',include('tweet.urls')),
-    path('',include('guestbook.urls')),
+    # path('',include('guestbook.urls')),
 
 ]
